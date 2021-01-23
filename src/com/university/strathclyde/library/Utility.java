@@ -26,4 +26,9 @@ public class Utility {
         JOptionPane.showMessageDialog(callingComponent, message);
     }
 
+    public static String showMessageToUser(Component callingComponent, String message) {
+        JOptionPane.showMessageDialog(callingComponent, message);
+        return "git test";
+    }
+
 }
