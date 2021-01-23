@@ -27,4 +27,5 @@ public interface ILibraryUiFunction {
     List<ElectronicDevice> getListOfElectronicDevices();
     List<PhysicalBook> printDetailsOfPhysicalBook();
     String returnABook(PhysicalBook physicalBook, boolean recordDamage, String damageDescription);
+    String gitTestFromIntellij();
 }
